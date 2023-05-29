@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SuperTrunfoDino</string>
+    <string name="tela_jogar">Jogar</string>
+    <string name="tela_cartas">Cartas</string>
+    <string name="tela_sair">Sair</string>
+
+
+    <string name="fragment_Carta_tamanho">Tamanho (Metros):</string>
+    <string name="fragment_Carta_peso">Peso (Toneladas):</string>
+    <string name="fragment_Carta_longevidade">Vida (Anos):</string>
+    <string name="fragment_Carta_agressividade">Agressividade:</string>
+    <string name="fragment_Carta_velocidade">Velocidade (Km/h):</string>
+
+
+    <string name="tiranossauro">Tiranossauro</string>
+
+
+    <string name="btn_Continuar_tela3">Continuar</string>
+
+
+    <string name="texto_telaVencedor">Parabéns!!!</string>
+    <string name="texto1_telaVencedor">Vitória</string>
+    <string name="texto2_telaVencedor">Obrigado por jogar DinoTrunfo</string>
+    <string name="btn_telaVencedor">Menu</string>
+
+    <string name="texto_telaPerdedor">Mais sorte da próxima vez...</string>
+    <string name="texto1_telaPerdedor">Derrota</string>
+
+
+</resources>

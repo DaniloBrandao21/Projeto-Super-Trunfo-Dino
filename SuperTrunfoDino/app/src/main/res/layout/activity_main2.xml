@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/planofundo"
+    tools:context=".Activitys.MainActivity2">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/campotexto"
+        android:text="DinoTrunfo"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/carta"
+        android:orientation="vertical"
+        android:padding="18dp">
+
+      <ImageView
+          android:id="@+id/image"
+          android:layout_width="wrap_content"
+          android:layout_height="200dp"
+          android:scaleType="centerCrop"
+          android:src="@drawable/tiranossauro" />
+
+      <TextView
+          android:id="@+id/textNome"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="10dp"
+          android:background="@drawable/campotextoatributo"
+          android:text="@string/tiranossauro"
+          android:textAlignment="center"
+          android:textSize="26sp"
+          android:textStyle="bold" />
+
+
+      <LinearLayout
+          android:id="@+id/layoutTamanho"
+          android:layout_width="match_parent"
+          android:layout_height="40dp"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textTamanho"
+            android:layout_width="220dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campotextoatributo"
+            android:text="@string/fragment_Carta_tamanho"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTamanhoValor"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/campotextoatributo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+      <LinearLayout
+        android:id="@+id/layoutPeso"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textPeso"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campotextoatributo"
+            android:text="@string/fragment_Carta_peso"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPesoValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/campotextoatributo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/layoutLongevidade"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textLongevidade"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campotextoatributo"
+            android:text="@string/fragment_Carta_longevidade"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textLongevidadeValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/campotextoatributo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/layoutAgressividade"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textAgressividade"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campotextoatributo"
+            android:text="@string/fragment_Carta_agressividade"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textAgressividadeValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/campotextoatributo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+      <LinearLayout
+          android:id="@+id/layoutVelocidade"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="20dp"
+          android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textVelocidade"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/campotextoatributo"
+            android:text="@string/fragment_Carta_velocidade"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textVelocidadeValor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:textAlignment="center"
+            android:background="@drawable/campotextoatributo"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+      </LinearLayout>
+
+    </LinearLayout>
+
+  </LinearLayout>
+

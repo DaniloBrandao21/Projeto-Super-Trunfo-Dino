@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flameConteudo"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/telainicial"
+    tools:context=".Activitys.MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonJogar"
+        android:background="@drawable/campotexto"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tela_jogar"
+        android:layout_marginTop="500dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonCartas"
+        android:layout_width="200dp"
+        android:background="@drawable/campotexto"
+        android:layout_height="wrap_content"
+        android:text="@string/tela_cartas"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonJogar" />
+
+    <Button
+        android:id="@+id/buttonSair"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/campotexto"
+        android:text="@string/tela_sair"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCartas" />
+</androidx.constraintlayout.widget.ConstraintLayout>
